@@ -103,7 +103,7 @@ ul, ul a {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .info-item {
