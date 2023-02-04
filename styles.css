@@ -54,9 +54,9 @@ ul, ul a {
     display: flex;
     flex: 1;
     margin: 0px;
-    width: 100%;
-    max-width: 600px;
-    height: 60%
+    width: 100%; /* This might change depending on the image used */
+    max-width: 600px; /* This might change depending on the image used */
+    height: 60% /* This might change depending on the image used */
 }
 
 .hero button {
@@ -69,4 +69,17 @@ ul, ul a {
 .hero-container h1 {
     font-size: larger;
     margin-bottom: 7px;
-}
+} 
+
+/*  Categories skeleton:
+    - information div
+    - image container
+        - display: flex;
+        - justify-content: center;
+        - gap: 52px;
+
+        - item: max-width: 200px;
+
+
+
+*/
