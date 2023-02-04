@@ -1,0 +1,28 @@
+/* Header skeleton: 
+    - Flexbox container (header)
+    - Flex-basis and margins should be the same for header and each section
+        - Flexbox items (also a container): div and nav
+        - Space between?
+            - div (logo)
+            - nav (justify space-between with gap of xx px)
+*/
+
+header {
+    display: flex;
+    margin: 0px 100px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-basis: 650px; */
+}
+
+nav, ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+ul, ul a {
+    list-style-type: none;
+    text-decoration: none;
+}
