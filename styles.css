@@ -9,11 +9,11 @@
 
 header {
     display: flex;
-    margin: 0px 100px;
-    padding: 20px;
+    margin: 0px 120px;
+    padding: 0px 0px;
     justify-content: space-between;
     align-items: center;
-    /* flex-basis: 650px; */
+    flex-basis: 850px;
 }
 
 nav, ul {
@@ -37,5 +37,36 @@ ul, ul a {
     */
 
 .hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin: 35px 120px;
+}
 
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.hero img {
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    width: 100%;
+    max-width: 600px;
+    height: 60%
+}
+
+.hero button {
+    padding: 4px 16px;
+    display: flex;
+    align-self: flex-start;
+    margin: 8px 0px;
+}
+
+.hero-container h1 {
+    font-size: larger;
+    margin-bottom: 7px;
 }
