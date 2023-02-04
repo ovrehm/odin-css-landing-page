@@ -26,3 +26,16 @@ ul, ul a {
     list-style-type: none;
     text-decoration: none;
 }
+
+
+/* Hero skeleton:
+    - Flexbox container (section)
+        - Flexbox items
+            - (Also a container) This website is awesome / subtext button
+            - Img
+    
+    */
+
+.hero {
+
+}
