@@ -15,11 +15,12 @@ body {
 
 header {
     display: flex;
-    margin: 0px 120px;
-    padding: 0px 0px;
+    margin: 0px;
+    padding: 0px 120px;
     justify-content: space-between;
     align-items: center;
     /* flex-basis: 850px; */
+    background-color: #1f2937;
 }
 
 nav, ul {
@@ -46,7 +47,9 @@ ul, ul a {
     display: flex;
     justify-content: space-between;
     gap: 35px;
-    margin: 75px 120px;
+    margin: 0px;
+    padding: 75px 120px;
+    background-color: #1f2937;
 }
 
 .hero-container {
@@ -54,6 +57,7 @@ ul, ul a {
     flex-direction: column;
     justify-content: flex-start;
     flex: 1;
+    
 }
 
 .hero img {
@@ -95,10 +99,10 @@ ul, ul a {
     display: flex;
     /* flex-basis: 850px; */
     flex-direction: column;
-    padding: 25px 0px;
+    margin: 0px;
+    padding: 25px 120px;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 120px;
 }
 
 .info-title {
@@ -144,7 +148,8 @@ ul, ul a {
 }
 
 .banner {
-    margin: 60px 120px;
+    margin: 0px;
+    padding: 60px 120px;
     display: flex;
     justify-content: center;
 }
@@ -170,4 +175,5 @@ footer {
     margin-top: auto;
     justify-content: center;
     padding: 30px 0px;
+    background-color: #1f2937;
 }
