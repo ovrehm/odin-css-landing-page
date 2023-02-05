@@ -67,7 +67,7 @@ ul, ul a {
 }
 
 .hero-container h1 {
-    font-size: larger;
+    font-size: xx-large;
     margin-bottom: 7px;
 } 
 
@@ -99,6 +99,8 @@ ul, ul a {
     display: flex;
     margin-bottom: 35px;
     justify-content: center;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .info-container {
@@ -132,4 +134,5 @@ ul, ul a {
 
 .quote > .attribution {
     text-align: end;
+    font-weight: bold;
 }
