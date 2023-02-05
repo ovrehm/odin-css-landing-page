@@ -13,7 +13,7 @@ header {
     padding: 0px 0px;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 850px;
+    /* flex-basis: 850px; */
 }
 
 nav, ul {
@@ -56,7 +56,7 @@ ul, ul a {
     margin: 0px;
     width: 100%; /* This might change depending on the image used */
     max-width: 600px; /* This might change depending on the image used */
-    height: 200px;
+    height: 120px;
 }
 
 .hero button {
@@ -87,11 +87,12 @@ ul, ul a {
 .info {
     text-align: center;
     display: flex;
-    flex-basis: 850px;
+    /* flex-basis: 850px; */
     flex-direction: column;
     padding: 25px 0px;
     justify-content: space-between;
     align-items: center;
+    margin: 25px 120px;
 }
 
 .info-title {
@@ -104,6 +105,7 @@ ul, ul a {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex: 1;
 }
 
 .info-item {
@@ -114,4 +116,20 @@ ul, ul a {
     display: flex;
     margin-top: 0px;
     text-align: center;
+}
+
+@media(max-width: 768px) {
+    .info-container, .hero {
+        flex-direction: column;
+    }
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 160px;
+}
+
+.quote > .attribution {
+    text-align: end;
 }
