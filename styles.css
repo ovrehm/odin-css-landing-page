@@ -1,16 +1,11 @@
-/* Header skeleton: 
-    - Flexbox container (header)
-    - Flex-basis and margins should be the same for header and each section
-        - Flexbox items (also a container): div and nav
-        - Space between?
-            - div (logo)
-            - nav (justify space-between with gap of xx px)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -33,15 +28,6 @@ ul, ul a {
     list-style-type: none;
     text-decoration: none;
 }
-
-
-/* Hero skeleton:
-    - Flexbox container (section)
-        - Flexbox items
-            - (Also a container) This website is awesome / subtext button
-            - Img
-    
-    */
 
 .hero {
     display: flex;
@@ -80,19 +66,6 @@ ul, ul a {
     font-size: xx-large;
     margin-bottom: 7px;
 } 
-
-/*  Categories skeleton:
-    - information div
-    - image container
-        - display: flex;
-        - justify-content: center;
-        - gap: 52px;
-
-        - item: max-width: 200px;
-
-
-
-*/
 
 .info {
     text-align: center;
