@@ -45,7 +45,6 @@ ul, ul a {
     background-image: url('images/hero-bg.jpg');
     background-position: top left;
     background-size: auto 100%;
-    background-repeat: no-repeat;
 }
 
 @media(max-width: 2000px) {
