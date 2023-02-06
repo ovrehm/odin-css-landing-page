@@ -50,17 +50,19 @@ ul, ul a {
     background-repeat: no-repeat;
 }
 
-.hero-subtext {
-    font-size: 18px;
-    color: #1f2937;
-
-}
 .hero-container {
     display: flex;
-    flex: 0.4;
+    flex: 0.35;
     flex-direction: column;
     justify-content: flex-start;
 }
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: ##1f2937;
+    margin-bottom: 7px;
+} 
 
 .hero button {
     padding: 0px;
@@ -81,12 +83,11 @@ ul, ul a {
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.64);
 }
 
-.hero-container h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: ##1f2937;
-    margin-bottom: 7px;
-} 
+.hero-subtext {
+    font-size: 18px;
+    color: #1f2937;
+
+}
 
 .info {
     text-align: center;
