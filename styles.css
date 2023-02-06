@@ -14,14 +14,13 @@ header {
     padding: 16px 120px;
     justify-content: space-between;
     align-items: center;
-    /* flex-basis: 850px; */
     background-color: #1f2937;
 }
 
 nav, ul {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 32px;
 }
 
 .logo {
@@ -43,16 +42,21 @@ ul, ul a {
     gap: 0px;
     margin: 0px;
     padding: 120px 120px;
-    background-color: #1f2937;
     background-image: url('images/hero-bg.jpg');
-    background-position: center top;
-    background-size: 100%;
+    background-position: top left;
+    background-size: auto 100%;
     background-repeat: no-repeat;
+}
+
+@media(max-width: 2000px) {
+    .hero {
+        background-size: 100%;
+    }
 }
 
 .hero-container {
     display: flex;
-    flex: 0.35;
+    flex: 0.4;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -61,17 +65,15 @@ ul, ul a {
     font-size: 48px;
     font-weight: bolder;
     color: ##1f2937;
-    margin-bottom: 7px;
+    margin-bottom: 50px;
 } 
 
 .hero button {
-    padding: 0px;
-    display: flex;
-    flex: 0.3;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 40px;
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin: 30px 0px;
     background-color: #ac3112;
+    padding: 10px 30px;
     border-radius: 16px;
     color: #f9faf8;
     font-weight: bold;
@@ -92,11 +94,10 @@ ul, ul a {
 .info {
     text-align: center;
     display: flex;
-    /* flex-basis: 850px; */
     flex-direction: column;
     margin: 0px;
     margin-bottom: 60px;
-    padding: 60px 120px;
+    padding: 0px 120px;
     justify-content: space-between;
     align-items: center;
 }
@@ -128,7 +129,7 @@ ul, ul a {
 .info-subtext {
     display: flex;
     margin-top: 0px;
-    text-align: center;
+    justify-content: center;
     color: #1f2937;
 }
 
@@ -166,14 +167,13 @@ ul, ul a {
 }
 
 .banner-container {
-    /* margin: 20px 50px; */
     width: 80%;
     padding: 50px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #3882f6;
+    background-color: #ac3112;
     border-radius: 20px;
     border-width: 0px;
     box-sizing: border-box;
@@ -191,7 +191,7 @@ ul, ul a {
 
 .cta {
    align-items: center;
-   background-color: #3882f6;
+   background-color: #ac3112;
    color: #e5e7eb;
    padding: 8px 28px;
    border-color: #e5e7eb;
