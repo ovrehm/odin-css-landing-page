@@ -40,50 +40,51 @@ ul, ul a {
 .hero {
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    gap: 0px;
     margin: 0px;
-    padding: 75px 120px;
+    padding: 120px 120px;
     background-color: #1f2937;
+    background-image: url('images/hero-bg.jpg');
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .hero-subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #1f2937;
 
 }
 .hero-container {
     display: flex;
+    flex: 0.4;
     flex-direction: column;
     justify-content: flex-start;
-    flex: 1;  
-}
-
-.hero img {
-    display: flex;
-    flex: 1;
-    margin: 0px;
-    width: 100%; /* This might change depending on the image used */
-    max-width: 600px; /* This might change depending on the image used */
-    height: 120px;
 }
 
 .hero button {
-    padding: 12px 36px;
+    padding: 0px;
     display: flex;
-    align-self: flex-start;
-    margin: 16px 0px;
-    background-color: #3882f6;
+    flex: 0.3;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 40px;
+    background-color: #ac3112;
     border-radius: 16px;
     color: #f9faf8;
     font-weight: bold;
     font-size: 18px;
     border: none;
+    min-height: 80px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.64);
 }
 
 .hero-container h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: ##1f2937;
     margin-bottom: 7px;
 } 
 
