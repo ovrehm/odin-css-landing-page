@@ -41,36 +41,46 @@ ul, ul a {
     justify-content: space-between;
     gap: 0px;
     margin: 0px;
-    padding: 120px 120px;
     background-image: url('images/hero-bg.jpg');
-    background-position: top left;
-    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 
-@media(max-width: 2000px) {
+@media only screen and (min-height: 620px) {
     .hero {
-        background-size: 100%;
+        background-position: right center;
     }
 }
 
 .hero-container {
     display: flex;
-    flex: 0.4;
+    flex: 0.45;
+    margin-left: 120px;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
 }
 
 .hero-container h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: ##1f2937;
-    margin-bottom: 50px;
+    color: #1f2937;
+    margin-top: 60px;
+    margin-bottom: 0px;
 } 
 
 .hero button {
     align-self: flex-start;
     justify-self: flex-end;
-    margin: 30px 0px;
+    margin-top: auto;
+    margin-bottom: 60px;
     background-color: #ac3112;
     padding: 10px 30px;
     border-radius: 16px;
@@ -87,14 +97,15 @@ ul, ul a {
 .hero-subtext {
     font-size: 18px;
     color: #1f2937;
-
+    margin-bottom: 60px;
+    align-self: center;
 }
 
 .info {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 60px 0px;
     margin-bottom: 60px;
     padding: 0px 120px;
     justify-content: space-between;
